@@ -1,0 +1,12 @@
+<div class="perro-detail1" *ngIf="perro">
+    <h2>{{perro.name | uppercase}} Details</h2>
+    <div><span>id: </span>{{perro.id}}</div>
+    <div>
+      <label for="perro-name">Nombre del perro: </label>
+      <mat-form-field class="example-form-field" appearance="fill">
+        
+        <input matInput type="text"  [(ngModel)]="perro.name" placeholder="Nombre del perro"/>
+      </mat-form-field>
+      </div>
+    <button (click)="goBack()">Atrás</button>
+  </div>

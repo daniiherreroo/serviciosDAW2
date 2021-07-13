@@ -1,0 +1,11 @@
+<div class="messages1" *ngIf="messageService.messages.length">
+
+    <h2>Votación</h2>
+    <button mat-raised-button color="primary" (click)="messageService.clear()">Reiniciar Votación</button>
+    <div *ngFor='let message of messageService.messages'> {{message}} 
+
+    </div>
+</div>
+  
+  
+  

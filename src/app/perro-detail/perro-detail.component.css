@@ -1,0 +1,16 @@
+/* HeroDetailComponent's private CSS styles */
+label {
+    color: #435960;
+    font-weight: bold;
+  }
+ 
+.perro-detail1{
+  margin-left: 50px;
+} 
+  
+  
+  button:disabled {
+    background-color: #eee;
+    color: #ccc;
+    cursor: auto;
+  }

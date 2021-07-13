@@ -1,0 +1,10 @@
+<div class="perros1">
+<h2>Perros</h2>
+<ul class="perros">
+  <li *ngFor="let perro of perros">
+    <a routerLink="/detail/{{perro.id}}">
+      <span class="badge">{{perro.id}}</span> {{perro.name}}
+    </a>
+  </li>
+</ul>
+</div>
